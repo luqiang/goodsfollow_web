@@ -1,27 +1,29 @@
 import React, { Component } from 'react';
 
 import { Layout } from 'antd';
-import 'antd/dist/antd.css'; 
+import './App.css';
 const { Header, Footer, Sider, Content } = Layout;
 
 class App extends Component {
   render() {
-    return (
-      <div style={{color:0xff0000}}>
-        <Layout>
-           <Header>Header</Header>
-       
-            
+    return ( 
+        <Layout className='app'>
+             <Sider className='sider'
+                  collapsible
+                  
+             ></Sider>             
                
-              <Content>Conten   
-
-                t</Content>
-              <Footer>Footer</Footer>
+             <Layout>
+                  <Header className='head'>Header</Header>
+                  <Content className='content'>Content</Content>             
+                  <Footer className='foot'>Footer</Footer>         
+            
+        
             </Layout>
-         
+        </Layout>    
          
 
-      </div>            
+              
  
       
     );
