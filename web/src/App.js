@@ -14,9 +14,9 @@ class App extends Component {
              ></Sider>             
                
              <Layout>
-                  <Header className='head'>Header</Header>
+                  <Header className='head'>物流跟踪</Header>
                   <Content className='content'>Content</Content>             
-                  <Footer className='foot'>Footer</Footer>         
+                  <Footer className='foot'>@2018copyright</Footer>         
             
         
             </Layout>
